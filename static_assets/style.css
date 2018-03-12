@@ -1,0 +1,19 @@
+.container {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10000000000000;
+  top: 45%;
+  left: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 1;
+  pointer-events: auto;
+}
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 30pt;
