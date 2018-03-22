@@ -1,7 +1,6 @@
 import React from 'react';
 import { View } from 'react-vr';
-import Abakus from './Abakus';
-import Online from './Online';
+import IteraDotOverI from './IteraDotOverI';
 
 export function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -37,7 +36,7 @@ export default class ComponentGenerator extends React.Component {
   generateComponents(num) {
     const components = [];
     for (var i = 0; i < num; i++) {
-      const component = i%2 === 0 ? <Abakus/> : <Online/>
+      const component = i%2 === 0 ? <IteraDotOverI/> : <IteraDotOverI/> // Could add your own object here
       components.push(component);
     }
     return components;

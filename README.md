@@ -376,7 +376,7 @@ Don't you feel a bit lonely trying to win the Galactic Empire over all by yourse
 
 ❓ Inside of `Game`, render the `ComponentGenerator` component, which takes the prop `numberOfComponents`. This says how many spaceships you want to appear. A good number is 20, but if your laptop/phone is a bit on the slower side, you might want to reduce this number.
 
-Do you recognize the spaceships? 😄 Credits to Elias Vågan for the Online logo 3D model! 👏
+Do you recognize the spaceships? 😄
 
 ### Final touches
 
@@ -389,7 +389,7 @@ It's time to make the final touch to the game. Even though the application is qu
 
 In this case, we will use `AmbientLight` and `DirectionalLight`.
 
-❓ Add a `DirectionalLight` inside of the render method of `Game`. Set the intensity prop to for instance 2, and its position to 10 in the positive y-direction, because we want to give the impression of moonlight 🌝🌙. Adding a lighting component will not make a difference unless you say that the components should be affected by it. Find the line `lit = {false}` inside of the `Abakus` and `Online` component in the **helpers** folder, and set lit to true instead 🔥. You can also add `lit = {true}` to the `Intro3DModel` component if you want.
+❓ Add a `DirectionalLight` inside of the render method of `Game`. Set the intensity prop to for instance 2, and its position to 10 in the positive y-direction, because we want to give the impression of moonlight 🌝🌙. Adding a lighting component will not make a difference unless you say that the components should be affected by it. Find the line `lit = {false}` inside of the `IteraDotOverI` component in the **helpers** folder, and set lit to true instead 🔥. You can also add `lit = {true}` to the `Intro3DModel` component if you want.
 
 Now, you can definitely see a change in lightning. However, it's a bit dark, don't you think? After all, we did not choose the dark side! 😈
 
