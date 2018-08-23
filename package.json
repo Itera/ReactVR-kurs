@@ -10,15 +10,18 @@
     "test": "jest"
   },
   "dependencies": {
+    "electron": "^2.0.8",
+    "fresh": "^0.5.2",
     "ovrui": "~2.0.0",
     "react": "16.0.0",
     "react-dom": "^16.2.0",
     "react-native": "~0.48.0",
+    "react-native-animated-math": "0.1.0",
     "react-vr": "~2.0.0",
     "react-vr-web": "~2.0.0",
+    "sshpk": "^1.14.2",
     "three": "^0.87.0",
-    "webvr-polyfill": "immersive-web/webvr-polyfill#a942181d743f382bd7d5f1dba24db232b2ba18ec",
-    "react-native-animated-math": "0.1.0"
+    "webvr-polyfill": "immersive-web/webvr-polyfill#a942181d743f382bd7d5f1dba24db232b2ba18ec"
   },
   "devDependencies": {
     "babel-jest": "^19.0.0",
