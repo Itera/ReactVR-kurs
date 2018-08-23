@@ -20,7 +20,7 @@ Another requirement for running this project is Git. Please follow the guide [he
 👉 **Tip:** If you at some point want to create your own application you can use ReactVR Cli tool to create a new clean ReactVR project template. You can install the tool by typing `npm install react-vr-cli -g` and then create a project by running `react-vr init [name of your reactVR project]`. This is perfect for new projects, but for this course we have added our own static assets and boilerplate code, therefore you should clone our repository instead.
 
 ## Task 1 - Init your ReactVR project ☝️
-This task will explain how you initialize your ReactVR project. Open up the **reactVR_Course** folder and take a look at the **index.vr.js** file. This file is the entry point for this course.
+This task will explain how you initialize your ReactVR project. Open up the **ReactVR-kurs** folder and take a look at the **index.vr.js** file. This file is the entry point for this course.
 
 ❓ Before we start the application we should make a small change to the file **/vr/client.js**. Above the `...options,` line add `enableHotReload: true,` and hit save. This will enable the hot reloader. That is, our application will automatically reload its view whenever we save a change in our code! 👍🏼
 
