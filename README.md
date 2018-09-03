@@ -152,7 +152,9 @@ Another way to fill your 3D component is to add a texture! A texture is used for
 We found a proper texture for the **death-star.obj** here:
 https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/death-star.png
 
-❓ Add a `texture` prop inside your `<Model/>`, and define it as the url above. Remember, the texture prop always takes its argument as a string 😉. Ops! You should also set the `wireframe` equal to false. When the `wireframe` is true, it will overwrite the texture 😬.
+❓ Add a `texture` prop inside your `<Model/>`, and define it as the url above. Remember, the texture prop always takes its argument as a string 😉. Ops! You should also set the `wireframe` equal to false. When the `wireframe` is true, it will overwrite the texture 😬. 
+
+If you have troubles with adding the texture. Try to save the .png to your static_assets folder and try to access the .png from there!
 
 ## Task 5 - Add animation to your 3D Model! 💥
 Now, lets add some animation to our 3D component 🤓! In this task, we will learn how to make the **death-star.obj** spin itself and play a sound whenever clicking on it!
