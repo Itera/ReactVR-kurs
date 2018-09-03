@@ -89,9 +89,9 @@ Okay, so the next step is to tell your view the size your `<Box/>` component. No
 
 The three first props determinate the width, height, and depth of the `<Box/>` component. Set each of the values to be equal to something between 0 and 1 because we don't want the box to be too big 😉. In ReactVR the dimension is measured in meters, therefore we often see size values between 0 and 1. `wireframe = {true} ` is just to see the outline of the box, and has the only purpose of helping us see the dimension of the `<Box/>` component.
 
-Did you check the page? 😨??? Still no box?
+Did you check the page? Are you located inside the box 😨??? 
 
-We have not told the view **where** to place to `<Box/>` component yet 😜. Let us introduce you to the ReactVR coordinates:
+We have not told the view **where** to place to `<Box/>` component yet 😜. By default ReactVR place the component at coordinate [0,0,0] - that is, where the camera is! Let us introduce you to the ReactVR coordinates:
 
 ReactVR default coordinates are [0,0,0], i.e. [x,y,z] coordinates.
 - X coordinate: a positive value brings the component to the right, and a negative value brings the component to the left.
