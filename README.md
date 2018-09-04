@@ -34,8 +34,10 @@ Open up the **index.vr.js** file again, here you can see a View and Pano compone
 
 ❓ Go ahead and try to change the pano image to something else! **Hint** : Look into **/static_assets** folder 😉.
 
-## Task 2 - Test your project on your phone! 📱 💻
-You probably can't wait to get the application up and running on your phone, so that you can use your awesome new Itera Google Cardboard! 🤓❤️ For this to work, we need to expose the port where we are running our application locally (8081), to a public URL that we can reach from our phone. A popular tool for accomplishing this is *ngrok*.
+## Task 2 - Test your project on your phone! 📱 💻 (optional)
+If there is a Google cardboard available, you should try to get the application up and running on your phone. If there is no cardboards available, you can skip this step for now and return when you get your hands on one.
+
+To get the application working on your phone, we need to expose the port where we are running our application locally (8081), to a public URL that we can reach from our phone. A popular tool for accomplishing this is *ngrok*.
 
 First, open a new command line window. Install ngrok globally on your computer like this:
 ```
@@ -377,8 +379,6 @@ Try to destroy a Death Star and check if you finally get some points for your ef
 Don't you feel a bit lonely trying to win the Galactic Empire over all by yourself? 😰 Luckily, help is on the way! In the final part of the exercise, you will meet some friendly spaceships that have come to celebrate your victory against the dark side. 🎉
 
 ❓ Inside of `Game`, render the `ComponentGenerator` component, which takes the prop `numberOfComponents`. This says how many spaceships you want to appear. A good number is 20, but if your laptop/phone is a bit on the slower side, you might want to reduce this number.
-
-Do you recognize the spaceships? 😄
 
 ### Final touches
 
