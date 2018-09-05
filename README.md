@@ -316,7 +316,7 @@ Your goal will be to destroy as many Death Stars as possible. May the force be w
 
 First, we need to set up a few things. We have created a `Game` component for you where we will do most of our coding.
 
-❓ Replace the `Intro3DModel` with the `Game` component in **index.vr.js**.
+❓ Replace the `Intro3DModel` with the `Game` component in **index.vr.js**. Don't worry, we will use what you created in the previous tasks in our game 😉.
 
 Take a look inside of **componenents/game/Game.vr.js**. There's not much there except an empty constructor and a render function that returns a `View` with the Death Star inside of it.
 
