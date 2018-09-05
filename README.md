@@ -159,7 +159,7 @@ https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/death-star.png
 👉 **Tips:** If you have troubles with adding the texture. Try to save the .png to your static_assets folder and try to access the .png from there!
 
 ## Task 5 - Add animation to your 3D Model! 💥
-Now, lets add some animation to our 3D component 🤓! In this task, we will learn how to make the **death-star.obj** spin itself and play a sound whenever clicking on it!
+Now, lets add some animation to our 3D component 🤓! In this task, we will learn how to make the **death-star.obj** spin itself.
 
 ❓ In file **components/introduction/intro3dModel.vr.js** import `Animated` and convert your Model to an `AnimatedModel` by defining it as described below inside your `render` function. Change the `Model` to `AnimatedModel`.
 
