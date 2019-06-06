@@ -10,25 +10,25 @@
     "test": "jest"
   },
   "dependencies": {
-    "electron": "^2.0.8",
+    "electron": "^2.0.18",
     "fresh": "^0.5.2",
     "ovrui": "~2.0.0",
     "react": "16.0.0",
-    "react-dom": "^16.2.0",
-    "react-native": "~0.48.0",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.59.9",
     "react-native-animated-math": "0.1.0",
     "react-vr": "~2.0.0",
     "react-vr-web": "~2.0.0",
-    "sshpk": "^1.14.2",
+    "sshpk": "^1.16.1",
     "three": "^0.87.0",
-    "webvr-polyfill": "immersive-web/webvr-polyfill#a942181d743f382bd7d5f1dba24db232b2ba18ec"
+    "webvr-polyfill": "github:immersive-web/webvr-polyfill#a942181d743f382bd7d5f1dba24db232b2ba18ec"
   },
   "devDependencies": {
-    "babel-jest": "^19.0.0",
-    "babel-preset-react-native": "^1.9.1",
-    "babel-preset-env": "1.6.1",
-    "jest": "^19.0.2",
-    "react-devtools": "^2.5.2",
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-native": "^5.0.2",
+    "jest": "^24.8.0",
+    "react-devtools": "^3.6.1",
     "react-test-renderer": "16.0.0",
     "xopen": "1.0.0"
   },

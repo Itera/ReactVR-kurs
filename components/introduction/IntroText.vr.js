@@ -8,8 +8,8 @@ export default class IntroText extends React.Component {
     return (
         <Text
           style={{
-            backgroundColor: '#777879',
-            fontSize: 0.8,
+            backgroundColor: '#000000',
+            fontSize: 0.4,
             fontWeight: '400',
             layoutOrigin: [0.5, 0.5],
             paddingLeft: 0.2,
