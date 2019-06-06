@@ -28,7 +28,7 @@ function init(bundle, parent, options) {
       drawsCursor: () => true
     }],
     cursorVisibility: 'visible', */
-    //enableHotReload: true,
+    enableHotReload: true,
     ...options,
     // TODO: Uncomment the line below to enable the Native Module
     // nativeModules: [domOverlayModule],
