@@ -20,7 +20,7 @@
     "react-vr": "~2.0.0",
     "react-vr-web": "~2.0.0",
     "sshpk": "^1.16.1",
-    "three": "^0.87.0",
+    "three": "^0.137.0",
     "webvr-polyfill": "github:immersive-web/webvr-polyfill#a942181d743f382bd7d5f1dba24db232b2ba18ec"
   },
   "devDependencies": {
