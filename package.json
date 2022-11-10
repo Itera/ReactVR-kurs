@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "electron": "^2.0.18",
+    "electron": "^18.3.7",
     "fresh": "^0.5.2",
     "ovrui": "~2.0.0",
     "react": "16.0.0",
